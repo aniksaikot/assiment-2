@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+
+  /* shared styles */
+.display{
+    display: flex;
+}
+
+.color-1{
+    color: rgb(254, 163, 1);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.color-2{
+    color: rgb(1, 172, 253);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.color-3{
+    color: rgb(5, 212, 223);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.color-4{
+    color: rgb(93, 88, 239);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+/* headeer styles */
+
+
+.head{
+    margin-left: 140px;
+    justify-content: space-between;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.link-container{
+    display: flex;
+    margin-left: 186px;
+}
+
+
+.title{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.btn-primary{
+    width: 197px;
+    height: 50px;
+    padding: 10px;
+    margin: 0px 186px;
+    border-radius: 12px;
+    background-color: #FEA301;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
